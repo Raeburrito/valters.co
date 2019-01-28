@@ -1,0 +1,14 @@
+
+@font-face {
+font-family: MetropolisLight;
+src: url("fonts/metropolis/Metropolis-ExtraLight.otf") format("opentype"),
+	url("fonts/metropolis/metropolis-extralight-webfont.woff2") format("woff2"),
+    url("fonts/metropolis/metropolis-extralight-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: MetropolisBold;
+src: url("fonts/metropolis/Metropolis-Bold.otf") format("opentype"),
+	url("fonts/metropolis/metropolis-bold-webfont.woff2") format("woff2"),
+    url("fonts/metropolis/metropolis-bold-webfont.woff") format("woff");
+}

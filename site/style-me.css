@@ -1,0 +1,769 @@
+body {
+	font-size: 12px;
+  letter-spacing: 0.1em;
+	color: #fff;
+  background-color: #191919;
+  font-family: 'MetropolisLight', Arial, Sans-Serif;
+  line-height: 1.7em;
+  text-align: left;
+}
+
+
+h1 {
+  padding: 0px 0px 0px 5px;
+  font-size: 7em;
+  line-height: 0em;
+  top: 24px;
+  letter-spacing: 0.2em;
+  color: #00FFBF;
+  font-family: 'MetropolisBold', Arial, Sans-Serif;
+
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  line-height: 1.1em;
+  letter-spacing: 0.1em;
+  color: #00FFBF;
+  font-family: 'MetropolisBold', Arial, Sans-Serif;
+}
+
+.bold {
+  font-family: 'MetropolisBold', Arial, Sans-Serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ul a {
+	color: #fff;
+	text-decoration: none;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+}
+
+ul a:hover {
+	color: #00FFBF;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+li {
+  display: inline-block;
+	padding: 3px 5px 0px 5px;
+	margin: 0;
+  background-color: rgba(25,25,25,0.9);
+}
+
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#main-content{
+  background: #262628;
+}
+
+#main-content-yarnless{
+  background: #ECEBEB;
+}
+
+#main-content-animal{
+  background: #200936;
+}
+
+#main-content-christmas{
+  background: #1A1A1C;
+}
+
+#navigation-container {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  flex: 1 100%;
+  margin-bottom: 58px;
+}
+
+.case {
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  order: 2; 
+  flex: 1 100%;
+  margin: 0;
+}
+
+.text-box-project {
+  width: 100%;
+  margin: 0;
+  order: 2;
+  box-sizing: border-box;
+}
+
+.text-project {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px 20px 20px 20px;
+  max-width: 600px;
+  text-align: center;
+  }
+
+
+.text-box {
+  width: 100%;
+  margin: 0;
+  margin-top: 58px;
+  order: 2;
+  box-sizing: border-box;
+}
+
+.text {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px 20px 50px 20px;
+  max-width: 600px;
+}
+
+#newsbyte-logo {
+  max-width: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#yarnless-logo {
+  max-width: 400px;
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+#accent-desktop-logo {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 30px;
+  width: 130px;
+}
+
+#yarnless-desktop-logo {
+  display: none;
+}
+
+#yarnless-subtext {
+  display: none;
+}
+
+.dark-text {
+  color: #262628 !important;
+}
+
+.text a {
+  color: #E100FF;
+  font-family: 'MetropolisBold';
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+    transition: letter-spacing .25s ease-in-out;
+  -moz-transition: letter-spacing .25s ease-in-out;
+  -webkit-transition: letter-spacing .25s ease-in-out;
+}
+
+.text a:hover {
+  color: #00FFBF;
+  letter-spacing: 0.2em;
+}
+
+.text-project p {
+  margin-bottom: 45px;
+}
+
+.nav-block { flex:  auto; }
+.project { flex:  auto; }
+
+.nav-block-1 {
+	left: 0;
+	padding-left: 5px;
+}
+
+.nav-block-1 li {
+  letter-spacing: 0.28em;
+  padding-right: 0;
+}
+
+.nav-block-2 {
+	right: 0;
+	padding-right: 5px;
+}
+
+.nav-block {
+	padding-top: 5px;
+	padding-bottom: 20px;
+  position: fixed;
+  top: 0px;
+  z-index: 24;
+}
+
+.overview-icon {
+  width: 55px;
+  height: 55px;
+  display: block;
+  margin-bottom: 13px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.overview-title {
+  display: block;
+  margin-bottom: 10px;
+  letter-spacing: 0.3em;
+}
+
+.project {
+  position: relative;
+	margin: 0;
+  width: 320px;
+  height: auto;
+  flex-grow: 1;
+}
+.project-group{
+  display: flex;
+  flex-direction: column;
+}
+.project-block {
+  flex-basis: auto;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.project-block-wrapper {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.text-block {
+  flex-basis: auto;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  padding: 15px 20px 0px 20px;
+  box-sizing: border-box;
+}
+
+
+.project-stretch {
+  position: relative;
+  margin: 0;
+  width: 320px;
+  height: auto;
+  flex-grow: 1;
+}
+
+.project-title {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  opacity: 0;
+  z-index: 21;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.project:hover > .project-title, .project-stretch:hover > .project-title {
+  opacity: 1.0;
+}
+
+.cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: -moz-linear-gradient(top, rgba(225,0,255,0) 0%, rgba(225,0,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(225,0,255,0) 0%,rgba(225,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(225,0,255,0) 0%,rgba(225,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  z-index: 20;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.project a:hover > .cover, .project-stretch a:hover > .cover {
+  opacity: 0.20;
+}
+
+.social-media-case {
+  border-top-right-radius: 20px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  background-color: rgba(25,25,25,0.9);
+  z-index: 23;
+}
+
+.back-button {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 16px 5px 10px;
+  position: fixed;
+  top:50%;
+  transform: translate(0, 50%);
+  left:0;
+  background-color: rgba(25,25,25,0.9);
+  z-index: 23;
+  -webkit-transition: padding 0.25s;
+  -moz-transition: padding 0.25s;
+  -o-transition: padding 0.25s;
+  transition: padding 0.25s;
+}
+
+
+.social-media-case a {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.social-button {
+  height: 35px;
+  width: 35px;
+  background-size: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social-button:last-child {
+  margin-right:0px;
+}
+
+.instagram {
+background-image: url(images/instagram-logo.png);
+-webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+.instagram:hover {
+background-size: 39px;
+}
+
+.dribble {
+background-image: url(images/dribble-logo.png);
+-webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+.dribble:hover {
+background-size: 39px;
+}
+
+.behance {
+background-image: url(images/behance-logo.png);
+-webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+.behance:hover {
+background-size: 39px;
+}
+
+.back-button:hover {
+  padding-left: 16px;
+}
+
+.back-button:hover > .arrow {
+  color: #00FFBF;
+}
+
+.project-image-group{
+  flex-flow: row;
+  flex-wrap: nowrap;
+  display: flex;
+  margin: 0;
+}
+
+.accent-map-mobile-subtext {
+  display:initial;
+}
+
+.animal-agriculture-text {
+    padding-top: 300px;
+}
+
+.case-animal {
+  position: absolute;
+  top: 50px;
+  min-height: 280px
+} 
+
+#animal-cta {
+  padding: 9px 16px 6px 16px;
+  font-size: 0.9em;
+  letter-spacing: .2em;
+  border: solid 2px;
+  border-color: #CD80FF;
+  border-radius: 10px;
+  color: #CD80FF;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 160px;
+  font-family: 'MetropolisBold', Arial, Sans-Serif;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#animal-cta:hover {
+  border-color: rgba(0,255,191,1);
+  background-color: rgba(0,255,191,0.1);
+  color: rgba(0,255,191,1);
+}
+
+#animal-logo {
+  width: 220px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 100px;
+}
+
+.animal-agriculture-text {
+    padding-top: 220px;
+}
+
+#christmas-title {
+  font-size: 1.8em;
+  letter-spacing: 0.25em;
+  position: absolute;
+  text-align: center;
+  line-height: 1.4em;
+  top: 100px;
+  width: 100%;
+}
+
+#ux-example-subtext {
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.7em;
+  position: absolute;
+  text-align: center;
+  top: 77%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+#ux-example-title {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.text-full-width {
+  padding-bottom: 34px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+@media only screen and (min-width: 500px) {
+
+  .square2 {
+    display: none;
+  }
+
+  .project {
+    width: 500px;
+  }
+
+  .project-stretch {
+    width: 500px;
+  }
+
+  h2 {
+    font-size: 3em;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+  }
+
+  .text {
+    padding: 80px 20px 80px 20px;
+  }
+
+  #ux-example-subtext {
+    top: 85%;
+  }
+
+
+
+ }
+
+ @media only screen and (max-width: 499px) {
+
+  .rectangle2 {
+    display: none;
+  }
+
+  #christmas-title {
+  top: 120px;
+  font-size: 2.4em;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  }
+
+
+ }
+
+ @media only screen and (max-width: 999px) {
+  .rectangle {
+    display: none;
+  }
+
+  #accent-map-subtext {
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 230px;
+}
+
+#christmas-subtext {
+  display: none;
+}
+
+.christmas-subtext-mobile {
+  display: initial;
+}
+
+}
+
+@media only screen and (min-width: 731px) {
+
+.accent-map-mobile-subtext {
+  display: none;
+}
+
+#animal-cta {
+  top: 270px;
+  font-size: 1.3em;
+  padding: 13px 20px 10px 20px;
+}
+
+#animal-logo {
+  width: 430px;
+  top: 170px;
+}
+
+.animal-agriculture-text {
+    padding-top: 300px;
+}
+
+.case-animal {
+  position: absolute;
+  top: 0;
+}
+
+#ux-example-subtext {
+  top: 85%;
+}
+
+.text-full-width {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.project-block {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.text-block {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.project-block-wrapper {
+  flex-basis:33.3%;
+}
+
+.text-full-width {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-block {
+  padding-top: 20px;
+}
+
+.nav-block-1 {
+  padding-left: 20px;
+}
+
+.nav-block-2 {
+  padding-right: 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 730px) {
+  .project-image-group {
+    flex-direction: column !important;
+  }
+
+  .stretch-inside img{
+    width: 200%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  #accent-map-subtext {
+    display: none;
+  }
+
+  #christmas-title {
+    top: 70px;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+ .project-stretch {
+    flex-basis: 100%;
+  }
+
+.square {
+    display: none;
+  }
+
+#yarnless-desktop-logo {
+  width: 450px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 60px;
+}
+
+#accent-desktop-logo {
+  width: 180px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 80px;
+}
+
+
+#yarnless-subtext {
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 190px;
+  background-color: #191919;
+}
+
+#accent-map-subtext {
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+  position: absolute;
+  top: 370px;
+}
+
+
+.yarnless-assets {
+  display: none;
+}
+
+#christmas-subtext {
+  position: absolute;
+  text-align: center;
+  bottom: 70px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: initial;
+}
+
+.christmas-subtext-mobile {
+  display: none;
+}
+
+#christmas-title {
+  top: 130px;
+  font-size: 3em;
+}
+
+#ux-example-subtext {
+  bottom: 7%;
+}
+
+.text-full-width {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.text-block {
+  padding: 15px 50px 0px 50px;
+}
+
+
+
+}
+
+
+
