@@ -472,6 +472,12 @@ background-size: 39px;
   color: rgba(0,255,191,1);
 }
 
+#photo-about {
+  max-width: 150px;
+  height: auto;
+  display: block;
+}
+
 #animal-logo {
   width: 220px;
   left: 50%;
